@@ -1,0 +1,122 @@
+/* .social-container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: center; 
+    user-select: none; 
+    position: absolute;
+    right: 30px;
+}
+
+.social-container:hover { height: 100%; }
+
+.social-container:hover .social-media:nth-child(2) { 
+    transform: translateY(-88px);
+}
+.social-container .bot-help .bot-help-content svg {
+    color: white;
+    font-size: 48px;
+    position: absolute; display: flex;
+    bottom: 10px;
+} 
+.social-container .social-media { 
+    align-items: center; 
+    justify-content: center; 
+    right: 10px; 
+    background-color: #4ba2ff; 
+    border-radius: 50%; 
+    transition: all 0.3s ease;
+    height: 50px;
+    width: 50px;
+}
+
+.social-container .social-media:hover {
+    cursor: pointer;
+} 
+.social-container .social-media svg{
+    color: white;
+    padding-top: 6px;
+}
+.social-container:hover .social-media:nth-child(3) { 
+    transform: translateY(-140px);
+} 
+.social-container:hover .social-media:nth-child(4) { 
+    transform: translateY(-200px);
+}
+.social-container:hover .social-media:nth-child(5) { 
+    transform: translateY(-260px);
+} 
+.social-container:hover .social-media:nth-child(6) { 
+    transform: translateY(-320px);
+}
+
+.social-container .bot-help { 
+    position: relative;
+    height: 78px; 
+    width: 70px;
+    background-color: #4ba2ff; 
+    border-radius: 50%;
+    z-index: 2;
+}
+.social-container .bot-help::before {
+    bottom: 0; 
+    right: 0;
+    content:""; 
+    position: absolute; 
+    width: 35px; 
+    background-color: inherit; 
+    border-radius: 0 0 10px 0;
+    height: 35px;
+    z-index: -1;
+} 
+.social-container .bot-help .bot-help-content { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 50%;
+    height: 100%; width: 100%;
+} */
+.bot-help,
+.social-media{
+    position: fixed;
+    right: 30px;
+}
+.bot-help svg,
+.social-media svg {
+  width: 40px;
+  height: 40px;
+  display: block;
+  color: #e01c1caf;
+}
+.bot-help svg{
+  color: #166fd6b6;
+}
+.bot-help{
+    bottom: 7%;
+}
+.bot-help:active {
+    transition: height 1s;
+    height: 100%;
+}
+.social-media.hide-media{
+    visibility: hidden;
+}
+.social-media.show-media{
+    visibility: visible;
+    opacity: 1;
+}
+.social-media{
+    bottom: 10%;
+    padding-bottom: 12px;
+    z-index: 9999; 
+    transition: opacity 2s;
+    opacity: 0;
+}
+.social-media a{
+    padding: 12px 20px 0 0;
+    text-decoration: none;
+}
+
+
+
+  

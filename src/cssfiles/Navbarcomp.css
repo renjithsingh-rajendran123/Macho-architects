@@ -1,0 +1,100 @@
+.navbaritems {
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  align-items: center;
+  padding: 0 30px;
+  /* background-color: #f1df59; */
+  background: rgb(230,133,81);
+  background: linear-gradient(90deg, rgba(148,219,149,1) 0%, rgba(237,255,0,1) 58%,rgba(230,133,81,1) 100%);
+  box-shadow: 0 5px 15px rgba(192, 189, 10, 0.863);
+  width: 95%;
+  height: 80px;
+  border-radius: 15px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.nav-menu{
+  /* display: grid;
+  grid-template-columns: repeat(4,auto); */
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  display: flex;  
+  width: 100%;    
+  flex-wrap: wrap;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-link:hover{
+  background-color: #c8f168be;
+  border-radius: 15px;
+  color: rgb(243, 47, 12);
+  box-shadow: 0 5px 15px rgba(192, 189, 10, 0.863);
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link.phonenumber:hover::after{
+    display:inline-block;
+    content:"+91 86601 09805";
+    color: black;
+}
+.nav-link i{
+  padding-right: 10px;
+}
+
+.menu-icons{
+  display: none;
+}
+
+@media screen and (max-width:991px){
+    .nav-menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: rgba(red, green, blue, alpha);
+      box-shadow: 0 5px 15px rgba(192, 189, 10, 0.863);
+      backdrop-filter: blur(4px);
+      border-radius: 13px;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: -110%;
+      align-items: stretch;
+      padding: 80px 0 30px 0;
+      margin: 0;
+      z-index: -1;
+      transition: all 0.2s ease-in-out;
+    }
+    .nav-menu.active{
+      left: 0%;
+    }
+    .nav-link{
+      display: block;
+      widows: 100%;
+      padding: 2rem 0;
+      color: #222;
+    }
+    .nav-link:hover{
+      backdrop-filter: blur(20px);
+      /* background-color: rgba(192, 189, 10, 0.863); */
+    }
+    .menu-icons{
+      display: block;
+    }
+  }
+
+
+  
