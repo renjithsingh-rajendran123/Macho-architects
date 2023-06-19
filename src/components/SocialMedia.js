@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import {socialmediainfo} from '../Navmenudata';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faCommentDots, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import chaticon from "../images/logo/chat.png"
 
 export default function SocialMedia() {
     const [boticon, setBot] = useState(true);
@@ -11,7 +12,9 @@ export default function SocialMedia() {
     return (
         <div className='social-container'>
             <div className='bot-help' onClick={changeBotIcon}>
-                <FontAwesomeIcon icon={boticon ? faCommentDots : faCircleXmark}/>
+                {
+                    boticon ? <img src={chaticon} alt="chattext"></img> : <FontAwesomeIcon icon={faCircleXmark}/>
+                }
             </div>
             <div className={boticon? 'social-media hide-media': 'social-media show-media'}>
                 {socialmediainfo.map((ele)=>{

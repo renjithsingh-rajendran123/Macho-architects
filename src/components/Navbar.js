@@ -2,19 +2,23 @@ import React, { useState } from "react";
 import {menuitems} from "../Navmenudata";
 import macho from "../images/logo/macho.png"
 import MuiDialog from './MuiDialog';
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const removebullet = {listStyleType: "none"};
   const [clicked,setHamburger] = useState(false);
   const [showOrHide, setShowOrHide] = useState(false);
-  const hamClicked = ()=>{
-    setHamburger((prev)=>!prev);
+  const hamClicked = (title)=>{
+    if(title != "Call us "){
+      setHamburger((prev)=>!prev);
+    }
   }
   const showMuiDialog = ()=>{
     setShowOrHide(true);
   }
   const updateParentFlag = (flagVal)=>{
     setShowOrHide(flagVal);
+    setHamburger((prev)=>!prev);
   }
   return (
     <div>
@@ -30,9 +34,9 @@ export default function Navbar() {
           return(
               element.title !== "Contact" ?
               (<li key={element.title} >
-                  <a href={element.url} className={element.cName}> 
+                  <Link to={element.url} className={element.cName} onClick={()=>{hamClicked(element.title)}}> 
                       <i className={element.icon}></i>{element.title}
-                  </a>
+                  </Link>
               </li>) : 
               (<li key={element.title} >
                 <div onClick={showMuiDialog} className={element.cName}> 

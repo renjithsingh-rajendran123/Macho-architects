@@ -1,0 +1,36 @@
+.MuiDialog-container .MuiPaper-root {
+    background: rgb(68, 63, 60) url(../images/logo/footer_bg.jpg) repeat;
+    background-size: cover;
+}
+.MuiDialog-container .MuiPaper-root h2 button i,
+.MuiDialog-container .MuiPaper-root h2 {
+    background: -webkit-linear-gradient(90deg, rgba(148,219,149,0.95) 0%, rgba(237,255,0,0.65) 58%,rgba(230,133,81,0.65) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+.MuiDialog-container .MuiPaper-root div form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.MuiDialog-container .MuiPaper-root div form .field{
+    flex-basis: 10.33333%;
+    flex-grow: 1;
+    padding: 15px;
+    font-size: 22px;
+    min-width: 200px;
+    border-radius: 5%;
+}
+.MuiDialog-container .MuiPaper-root div form button {
+    padding: 15px;
+    margin: 20px;
+    cursor: grab;
+    border-radius: 10%;
+    background: linear-gradient(90deg, rgba(148,219,149,0.95) 0%, rgba(237,255,0,0.65) 58%,rgba(230,133,81,0.65) 100%);
+    font-size: 22px;
+    font-weight: bold;
+}

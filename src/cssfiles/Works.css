@@ -1,0 +1,74 @@
+.works-gallery{
+    padding-top: 280px;
+}
+.works-gallery .completed-projects,
+.works-gallery .designs-imgs,
+.works-gallery .site-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.works-gallery div img {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    object-fit: cover;
+    object-position: bottom;
+    flex: 1 0 21%;
+    border: 3px solid gray;
+    border-radius: 4%;
+    max-width: 300px;
+}
+.works-gallery div img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.works-gallery h1 {
+    padding: 20px;
+    font: bold 50px Georgia, serif;
+    margin-top: 15px;
+}
+
+.works-menu{
+    margin-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: -50px;
+    z-index: 99;
+    width: 100%;
+    background: rgb(68, 63, 60) url(../images/logo/footer_bg.jpg) repeat;
+    background-size: cover;
+}
+.works-menu div {
+    padding: 5px;
+    margin: 5px;
+    background: linear-gradient(90deg, rgba(148,219,149,0.95) 0%, rgba(237,255,0,0.65) 58%,rgba(230,133,81,0.65) 100%);
+    border: 3px solid orange;
+    border-radius: 15px;
+}
+.works-menu div a{
+    text-decoration: none;
+    color: black;
+    font: bold 20px Georgia, serif;
+}
+.works a svg {
+    position: fixed;
+    right: 22px;    
+    top: 143px;
+    width: 50px;
+    height: 50px;
+    color: orange;
+    z-index: 99;
+}
+.works{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

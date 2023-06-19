@@ -79,17 +79,18 @@
 .bot-help,
 .social-media{
     position: fixed;
-    right: 30px;
+    right: 50px;
 }
+.bot-help img,
 .bot-help svg,
 .social-media svg {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   display: block;
-  color: #e01c1caf;
+  color: #21c921af;
 }
 .bot-help svg{
-  color: #166fd6b6;
+  color: rgb(68, 63, 60);
 }
 .bot-help{
     bottom: 7%;
@@ -117,6 +118,13 @@
     text-decoration: none;
 }
 
+.footer-social-media svg{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding: 20px;
+  color: black;
+}
 
 
   

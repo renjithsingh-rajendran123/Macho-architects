@@ -5,10 +5,14 @@ import './cssfiles/Footer.css';
 import './cssfiles/Social.css';
 import './cssfiles/Homecomp.css';
 import './cssfiles/App.css';
+import "./cssfiles/Works.css";
+import "./cssfiles/Muicomp.css";
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import SocialMedia from './components/SocialMedia';
-import HomePage from './components/HomePage';
+import HomePage from './components/HomePage'; 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Works from './components/Works';
 
 export const wordleContext = createContext();
 function App() {
@@ -24,12 +28,19 @@ function App() {
     //     <Keyboard></Keyboard>
     //   </div>
     // </wordleContext.Provider>
-    <div className="App">
-      <Navbar></Navbar>
-      <HomePage></HomePage>
-      <Footer></Footer>
-      <SocialMedia></SocialMedia>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route index element={<HomePage />}></Route>
+          <Route path="/home" element={<HomePage />}></Route>
+          <Route path="/our-works" element={<Works />} />
+          <Route path="/#about" element={<Works />} />
+        </Routes>
+        <Navbar></Navbar>
+        <Footer></Footer>
+        <SocialMedia></SocialMedia>
+      </div>
+    </BrowserRouter>
   );
 }
 

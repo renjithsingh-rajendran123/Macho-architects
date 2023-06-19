@@ -10,13 +10,13 @@ import Carpentry from "./images/services/carpentry.png";
 import Wallpaper from "./images/services/wallpaper.png";
 import Fabrication from "./images/services/fabrication.png";
 import {faFacebook,faInstagram,faWhatsapp} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export const menuitems = [
-    {title:"Home",icon:"fa-solid fa-house-user",url:"#",cName:"nav-link"},
-    {title:"Our Works",icon:"fa-solid fa-briefcase",url:"#",cName:"nav-link"},
-    {title:"Contact",icon:"fa-solid fa-address-card",url:"#",cName:"nav-link"},
-    {title:"About",icon:"fa-solid fa-circle-info",url:"#",cName:"nav-link"},
+    {title:"Home",icon:"fa-solid fa-house-user",url:"/home",cName:"nav-link"},
+    {title:"Our Works",icon:"fa-solid fa-briefcase",url:"/our-works",cName:"nav-link"},
+    {title:"Contact",icon:"fa-solid fa-address-card",url:"/contact",cName:"nav-link"},
+    // {title:"About",icon:"fa-solid fa-circle-info",url:"#about",cName:"nav-link"},
     {title:"Call us ",icon:"fa-solid fa-phone",url:"#",cName:"nav-link phonenumber"}]
 
 export const socialmediainfo = [
@@ -31,7 +31,7 @@ export const serviceicons = [
     {icon: ACP_Elevation,icons:"../images/services/acpelevation.svg", name: "ACP Elevation"},
     {icon: Glazing,icons:"../images/services/Glazing.svg", name: "Glazing Works"},
     {icon: False_ceiling,icons:"../images/services/False_ceiling.svg", name: "False ceiling"},
-    {icon: Carpentry,icons:"../images/services/Carpentry.svg", name: "Carpentry Works"},
+    {icon: Carpentry,icons:"../images/services/screwdriver-svgrepo-com.svg", name: "Carpentry Works"},
     {icon: Wallpaper,icons:"../images/services/Wallpaper.svg", name: "Wall paper"},
-    {icon: Fabrication,icons:"../images/services/Fabrication.svg", name: "FABRICATION"}
+    {icon: Fabrication,icons:"../images/services/Fabrication.svg", name: "INTERIOR DESIGN"}
 ]

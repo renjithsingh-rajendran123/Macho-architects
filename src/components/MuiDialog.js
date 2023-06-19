@@ -16,7 +16,7 @@ export default function FormDialog(props) {
   return (
     <div>
       <Dialog open={props.Show} onClose={handleClose} TransitionComponent={Transition}>
-        <DialogTitle>GET In touch
+        <DialogTitle>Get in touch !
             {props.Show ? (
                 <IconButton
                 aria-label="close"
@@ -33,13 +33,13 @@ export default function FormDialog(props) {
         ) : null}
         </DialogTitle>
         <DialogContent>
-            <form className="w-form" action="https://formsubmit.co/machoarchitects@gmail.com" method="POST">					
-                    <input className="field w-input" name="contactName" maxLength={"256"} placeholder="Name" required="required" type="text"/>
-                    <input className="field w-input" name="contactPhone" id="Phone" maxLength={"256"} placeholder="Phone" required="required" type="number"/>
-                    <input className="field w-input" name="contactBudget" maxLength={"256"} placeholder="Location" required="required" type="text"/>
-                    <input className="field w-input" name="contactWork" maxLength={"256"} placeholder="What kind of Work" required="required" type="text"/>
-                    <textarea className="field w-input" id="immess" maxLength={"5000"} name="contactMessage" placeholder="Project Description"></textarea>
-                    <button name="sub" className="button form w-button" type="submit" >SUBMIT</button>				
+            <form className="w-form" action="mailto:machoarchitects@gmail.com" method="post" enctype="text/plain">
+                    <input className="field w-input" name="Customer_Name" maxLength={"256"} placeholder="Name" required="required" type="text"/>
+                    <input className="field w-input" name="Phone_Number" id="Phone" maxLength={"10"} minLength={"10"} placeholder="Phone" required="required" type="number"/>
+                    <input className="field w-input" name="Project_Budget" maxLength={"256"} placeholder="Location" required="required" type="text"/>
+                    <input className="field w-input" name="Work_Type" maxLength={"256"} placeholder="What kind of work?" required="required" type="text"/>
+                    <textarea className="field w-input" id="immess" maxLength={"5000"} name="Project_Description" rows="6" cols="690" placeholder="Project description"></textarea><br></br>
+                    <button className="button form w-button" type="submit" >SUBMIT</button>				
             </form>
         </DialogContent>
       </Dialog>

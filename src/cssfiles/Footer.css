@@ -1,4 +1,5 @@
-.footer {background: rgb(68, 63, 60);
+.footer {
+    background: rgb(68, 63, 60) url(../images/logo/footer_bg.jpg) no-repeat;
     color: white;
     bottom: 0;
     width: 100%;
