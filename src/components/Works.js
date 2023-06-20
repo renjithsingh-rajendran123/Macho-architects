@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useState } from "react";
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -7,9 +7,9 @@ const Works = () =>{
     let imagesone = require.context('../images/completedprojects', true);
     let imagestwo = require.context('../images/designs', true);
     let imagesthree = require.context('../images/sitephotos', true);
-    // const [designs, setDesign] = useState(Array(52).fill(0));
-    // const [completed, setCompleted] = useState(Array(73).fill(0));
-    // const [sites, setSites] = useState(Array(61).fill(0));
+    const designs = Array(52).fill(0);
+    const completed = Array(73).fill(0);
+    const sites = Array(61).fill(0);
     // const fetchUserData = () => {
     //     debugger;
     //     fetch("https://drive.google.com/drive/folders/1e822wglfmoMWLR6wn-0dj9fogVzmYZTG?usp=sharing").then(response => {
