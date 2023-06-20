@@ -11,6 +11,9 @@
     font-weight: bold;
     padding: 20px;
 }
+.MuiDialog-container .MuiPaper-root h2{
+    font-family: system-ui, sans-serif;
+}
 .MuiDialog-container .MuiPaper-root div form {
     display: flex;
     flex-wrap: wrap;
