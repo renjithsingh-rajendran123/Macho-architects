@@ -9,7 +9,7 @@ export default function Navbar() {
   const [clicked,setHamburger] = useState(false);
   const [showOrHide, setShowOrHide] = useState(false);
   const hamClicked = (title)=>{
-    if(title != "Call us "){
+    if(title !== "Call us "){
       setHamburger((prev)=>!prev);
     }
   }

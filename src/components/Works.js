@@ -7,22 +7,22 @@ const Works = () =>{
     let imagesone = require.context('../images/completedprojects', true);
     let imagestwo = require.context('../images/designs', true);
     let imagesthree = require.context('../images/sitephotos', true);
-    const [designs, setDesign] = useState(Array(52).fill(0));
-    const [completed, setCompleted] = useState(Array(73).fill(0));
-    const [sites, setSites] = useState(Array(61).fill(0));
-    const fetchUserData = () => {
-        debugger;
-        fetch("https://drive.google.com/drive/folders/1e822wglfmoMWLR6wn-0dj9fogVzmYZTG?usp=sharing").then(response => {
-            debugger;
-            return response.json()
-          }).then((e)=>{
-            debugger;
-            setCompleted(e);
-        })
-    }
-    useEffect(()=>{
-        // fetchUserData();
-    },[])
+    // const [designs, setDesign] = useState(Array(52).fill(0));
+    // const [completed, setCompleted] = useState(Array(73).fill(0));
+    // const [sites, setSites] = useState(Array(61).fill(0));
+    // const fetchUserData = () => {
+    //     debugger;
+    //     fetch("https://drive.google.com/drive/folders/1e822wglfmoMWLR6wn-0dj9fogVzmYZTG?usp=sharing").then(response => {
+    //         debugger;
+    //         return response.json()
+    //       }).then((e)=>{
+    //         debugger;
+    //         setCompleted(e);
+    //     })
+    // }
+    // useEffect(()=>{
+    //     // fetchUserData();
+    // },[])
     return(
         <div className="works" id="works">
             <div className="works-menu" id="menulist">
