@@ -72,7 +72,7 @@ const HomePage = () => {
                     deliver quality output on time. We at Macho Architectz, recognize that our strength lies in our highly motivated and committed team
                     with knowledge, experience, creativity, thoroughness and professionalism. </p>
 
-                <p class="paragraph">We have a strong reputation for designing executing and delivering premium outputs. MACHO has
+                <p className="paragraph">We have a strong reputation for designing executing and delivering premium outputs. MACHO has
                     touched the pinnacle of making many happy homes that satisfy the told and untold requirements of
                     customer across various niches.</p>
             </div>

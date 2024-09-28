@@ -42,10 +42,10 @@ function a11yProps(index) {
 }
 const TabItemContent = ({tabContent}) => {
     return (<div className="d-flex flex-wrap justify-content-between gap-2">
-        {tabContent?.map((e) => {
+        {tabContent?.map((e, index) => {
             return (
-                <div className='tab-flex-items'>
-                        <i class={e.icon}></i>   <div>{e.name}</div>
+                <div key={index} className='tab-flex-items'>
+                        <i className={e.icon}></i>   <div>{e.name}</div>
                 </div>
             )
         })}
