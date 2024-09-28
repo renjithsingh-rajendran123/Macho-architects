@@ -1,0 +1,15 @@
+{
+  "short_name": "Macho Architectz",
+  "name": "An architecture company based in Tirunelveli. We offer services in TamilNadu, Kerala and Karnataka",
+  "icons": [
+    {
+      "src": "macho_logo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
