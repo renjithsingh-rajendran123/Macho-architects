@@ -25,7 +25,8 @@ export default function Navbar() {
       <nav className="navbaritems">
         <h1 className="macho-logo" style={{height:"100%"}}>
           <img src={macho} alt="macho logo" width="150px" style={{
-            padding: "5px",
+            padding: "13px",
+            paddingLeft: "0px",
             height: "100%"
           }} />
         </h1>
