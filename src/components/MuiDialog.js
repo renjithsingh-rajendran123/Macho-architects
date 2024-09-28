@@ -15,7 +15,7 @@ export default function FormDialog(props) {
   };
   return (
     <div>
-      <Dialog open={props.Show} onClose={handleClose} TransitionComponent={Transition}>
+      <Dialog open={props.Show} onClose={handleClose} TransitionComponent={Transition} style={{borderRadius:"10px"}}>
         <DialogTitle>Get in touch !
             {props.Show ? (
                 <IconButton

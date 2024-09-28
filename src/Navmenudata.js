@@ -28,10 +28,43 @@ export const socialmediainfo = [
 ];
 
 export const serviceicons = [
-    {icon: ACP_Elevation,icons:"../images/services/acpelevation.svg", name: "ACP Elevation"},
-    {icon: Glazing,icons:"../images/services/Glazing.svg", name: "Glazing Works"},
-    {icon: False_ceiling,icons:"../images/services/False_ceiling.svg", name: "False ceiling"},
-    {icon: Carpentry,icons:"../images/services/screwdriver-svgrepo-com.svg", name: "Carpentry Works"},
-    {icon: Wallpaper,icons:"../images/services/Wallpaper.svg", name: "Wall paper"},
-    {icon: Fabrication,icons:"../images/services/Fabrication.svg", name: "INTERIOR DESIGN"}
+    { icon: ACP_Elevation, icons: "../images/services/acpelevation.svg", name: "ACP Elevation" },
+    { icon: Glazing, icons: "../images/services/Glazing.svg", name: "Glazing Works" },
+    { icon: False_ceiling, icons: "../images/services/False_ceiling.svg", name: "False ceiling" },
+    { icon: Carpentry, icons: "../images/services/screwdriver-svgrepo-com.svg", name: "Carpentry Works" },
+    { icon: Wallpaper, icons: "../images/services/Wallpaper.svg", name: "Wall paper" },
+    { icon: Fabrication, icons: "../images/services/Fabrication.svg", name: "INTERIOR DESIGN" }
+]
+export const corporateInterior = [{icon: "fas fa-glass-whiskey", name: "12mm Touched Glass Partition"},
+    {icon: "fas fa-desktop", name: "Office Tables and Cabinet"},
+    {icon: "fas fa-window-maximize", name: "Blinds"},
+    {icon: "fas fa-tree", name: "Wooden Flooring"},
+    {icon: "fas fa-border-all", name: "Wall Paneling"},
+    {icon: "fas fa-cubes-stacked", name: "Rack Shelf"},
+    {icon: "fas fa-lightbulb", name: "Exposed False Ceiling"},    
+]
+export const commercialInterior = [{icon: "fas fa-building", name: "ACP Elevation"},
+    {icon: "fas fa-window-restore", name: "Structural Glazing"},
+    {icon: "fas fa-table", name: "Counter Table"},
+    {icon: "fas fa-lightbulb", name: "False Ceiling"},
+    {icon: "fas fa-rod-asclepius", name: "Stainless Steel Rack"},
+    {icon: "fas fa-border-all", name: "Wall Paneling"},
+    {icon: "fas fa-door-open", name: "Sensor Glass Door"},    
+]
+
+export const homeInterior = [
+    {icon: "fas fa-home", name: "Walldrop"},
+{icon: "fas fa-border-all", name: "Wall Paneling"},
+{icon: "fas fa-tv", name: "TV Unit"},
+{icon: "fas fa-lightbulb", name: "False Ceiling"},
+{icon: "fas fa-utensils", name: "Modular Kitchen"},
+{icon: "fas fa-paint-roller", name: "Poly Granite"},
+{icon: "fas fa-bed", name: "Bed Cot"},
+{icon: "fas fa-rod-asclepius", name: "Stainless Steel with Glass"},
+{icon: "fas fa-shower", name: "Glass Shower"},
+{icon: "fas fa-umbrella", name: "Roof Work"},
+{icon: "fas fa-divide", name: "Partition"},
+{icon: "fas fa-tree", name: "Wooden Flooring"},
+{icon: "fas fa-torii-gate", name: "Automatic Gates"},
+{icon: "fas fa-cogs", name: "Home Automation"},
 ]

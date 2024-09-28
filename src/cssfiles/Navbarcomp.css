@@ -6,8 +6,8 @@
   align-items: center;
   padding: 0 30px;
   /* background-color: #f1df59; */
-  background: rgb(230,133,81);
-  background: linear-gradient(90deg, rgba(148,219,149,0.95) 0%, rgba(237,255,0,0.65) 58%,rgba(230,133,81,0.65) 100%);
+  background: rgb(230, 221, 216);
+  background: linear-gradient(90deg, rgb(0 0 0 / 95%) 0%, rgb(68 68 61 / 65%) 58%, rgb(255 255 255 / 65%) 100%);
   box-shadow: 0 5px 15px rgba(192, 189, 10, 0.863);
   width: 95%;
   height: 80px;
@@ -28,6 +28,7 @@
   display: flex;  
   width: 100%;    
   flex-wrap: wrap;
+  margin-bottom: 0;
 }
 .navbaritems a,
 .nav-link{
