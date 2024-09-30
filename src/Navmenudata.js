@@ -23,8 +23,8 @@ export const socialmediainfo = [
     {icons:faWhatsapp,src:whatsapp,title:"WhatsApp Us",cName:"fa-brands fa-whatsapp",target:"_blank",href:"https://wa.me/+918668011348?text=Hi, I'm interested in availing MACHO services. Can you please help me?"},
     {icons:faFacebook,src:facebook,title:"Visit our Facebook",cName:"fa-brands fa-facebook",target:"_blank",href:"https://www.facebook.com/machoarchitects"},
     {icons:faEnvelope,src:gmail,title:"Get in touch via mail",cName:"fa-solid fa-envelope",target:"_blank",
-    href:"mailto:machoarchitects@gmail.com?subject=Service%20Request&body=Hi, I'm interested in availing MACHO services. Can you please help me?"},
-    {icons:faInstagram,src:instagram,title:"Visit our Instagram",cName:"fa-brands fa-instagram",target:"_blank",href:"https://www.instagram.com/architect_macho/"}
+    href:"mailto:machoarchitectz@gmail.com?subject=Service%20Request&body=Hi, I'm interested in availing MACHO services. Can you please help me?"},
+    {icons:faInstagram,src:instagram,title:"Visit our Instagram",cName:"fa-brands fa-instagram",target:"_blank",href:"https://www.instagram.com/machoarchitectz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="}
 ];
 
 export const serviceicons = [

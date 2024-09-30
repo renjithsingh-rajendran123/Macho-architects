@@ -66,7 +66,7 @@ const HomePage = () => {
                 <h1>About Us</h1>
                 <p>
                     Macho Architectz is a interior designing organization based in Tamil
-                    Nadu. We offer services in <b>Tamil Nadu</b>, <b>Kerala</b> and <b>Karnataka</b>. We are composed of creative designers and experienced Workers. We have a combination of
+                    Nadu. We offer services in <b>Tamil Nadu</b>, <b>Kerala</b> and <b>Karnataka</b>. We are composed of creative designers and experienced workers. We have a combination of
                     experienced and young talented team. In order to provide a streamlined execution in each stage of project our designing and
                     execution team is outfitted with latest software's machinery and hand tools which helps us to
                     deliver quality output on time. We at Macho Architectz, recognize that our strength lies in our highly motivated and committed team
